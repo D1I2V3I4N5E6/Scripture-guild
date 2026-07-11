@@ -1,0 +1,18 @@
+# netlify.toml — Netlify Redirect Rule for React Router
+#
+# Without this rule, refreshing any page other than '/' on Netlify
+# returns a 404 error because Netlify looks for a real file at that
+# path and finds nothing (the file is index.html for ALL routes).
+#
+# This rule tells Netlify: "for ANY request path, serve index.html
+# with a 200 status" — React Router then handles the routing
+# entirely on the client side.
+#
+# This file must be inside the 'public/' folder so Vite copies it
+# into the 'dist/' folder at build time, placing it at the root
+# of your deployed site where Netlify expects to find it.
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
