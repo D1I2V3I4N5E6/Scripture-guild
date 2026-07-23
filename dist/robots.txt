@@ -1,0 +1,7 @@
+# robots.txt — Scripture Guild
+# Allows all search engine crawlers to index the site.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://your-domain.com/sitemap.xml

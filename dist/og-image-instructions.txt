@@ -1,0 +1,134 @@
+SCRIPTURE GUILD — SOCIAL SHARE IMAGE INSTRUCTIONS
+==================================================
+
+File to create: og-image.jpg
+Placement: public/og-image.jpg
+Required size: 1200 × 630 pixels
+Format: JPG (preferred) or PNG
+Target file size: Under 300 KB
+
+
+PURPOSE
+-------
+This image appears automatically when someone shares a Scripture Guild
+link on WhatsApp, Facebook, X (Twitter), LinkedIn, Telegram, iMessage,
+Slack, or Discord. It is the first visual impression of the platform.
+
+
+VISUAL BRIEF
+------------
+Concept: Modern Bible Study meets Sacred Atmosphere
+
+Main elements to include:
+
+  1. FOCAL POINT — An open Bible, beautifully lit, resting on a warm
+     wooden desk. The pages are glowing softly with golden light as if
+     the words themselves radiate warmth and truth.
+
+  2. LIGHT EFFECT — Soft, cinematic golden/amber light rays rising
+     gently from the open pages upward. Can include subtle light
+     particles or a gentle glow diffusing across the scene.
+
+  3. TECHNOLOGY ELEMENT (optional but recommended) — In the background
+     or to one side, a modern tablet or laptop screen showing a clean,
+     dark-navy UI that represents the Scripture Guild platform. This
+     connects the sacred with the modern digital experience.
+
+  4. TEXT OVERLAY — Two lines of text, centered or left-aligned:
+
+       Scripture Guild
+       Understand God's Word Deeply
+
+     Font style: Elegant serif (Georgia, Playfair Display, or similar)
+     Scripture Guild — bold, large, warm gold (#f0c040)
+     Subtitle — lighter weight, cream/white (#f5f0e8)
+
+  5. OPTIONAL ACCENTS:
+     - A subtle gold cross in one corner
+     - Faint ancient parchment texture behind the Bible
+     - A small Scripture Guild logo (📖) watermark in the bottom corner
+
+
+COLOUR PALETTE
+--------------
+  Deep Navy (background / shadows)   #0d1f3c
+  Warm Gold (highlights / text)      #f0c040
+  Soft Cream (subtitle text)         #f5f0e8
+  Warm Amber (light rays)            #e8a020
+  Dark Wood (desk surface)           #3d2010
+
+
+THREE DESIGN DIRECTIONS TO CHOOSE FROM
+---------------------------------------
+
+Direction 1 — MODERN BIBLE STUDY (Recommended)
+  Open Bible + faint laptop/tablet showing Scripture Guild UI in BG
+  Clean, professional, trustworthy
+  Best for LinkedIn and Facebook
+
+Direction 2 — SPIRITUAL & CINEMATIC
+  Close-up of Bible pages with dramatic golden light rays bursting
+  upward. No technology — purely sacred atmosphere.
+  Emotional, reverent, shareable on WhatsApp
+
+Direction 3 — COMMUNITY LEARNING
+  Young believers (diverse group) gathered around a table with open
+  Bibles and a tablet. Warm natural light. Joyful expressions.
+  Best for broad social appeal and relatability
+
+RECOMMENDED: Mix Direction 1 + Direction 2 — open Bible with golden
+glow AND a hint of the modern UI in the background.
+
+
+HOW TO CREATE THIS IMAGE
+------------------------
+  Tools you can use (all free or low-cost):
+
+  • Canva (canva.com) — search "Bible study" templates, resize to
+    1200×630, add your text and branding
+
+  • Adobe Express (express.adobe.com) — free tier available,
+    excellent for social media graphics
+
+  • Figma (figma.com) — free design tool, create a 1200×630 frame,
+    use royalty-free images from Unsplash
+
+  • DALL·E / Midjourney / Adobe Firefly — AI image generation.
+    Prompt suggestion:
+    "An open Bible glowing with warm golden light on a rustic wooden
+    desk, soft cinematic lighting, ancient parchment texture, deep
+    navy and gold colour palette, modern tablet visible softly in
+    background, reverent and peaceful atmosphere, photorealistic,
+    16:9 aspect ratio"
+
+  • Unsplash (unsplash.com) — search "Bible study" or "open Bible"
+    for free high-quality base photos to overlay text on
+
+
+AFTER CREATING THE IMAGE
+------------------------
+  1. Save as og-image.jpg (quality 85–90%)
+  2. Place in the public/ folder: public/og-image.jpg
+  3. Update index.html with your real domain:
+     Change: content="https://www.scriptureguild.com/og-image.jpg"
+     To:     content="https://YOUR-ACTUAL-DOMAIN.com/og-image.jpg"
+  4. Run npm run build
+  5. Deploy dist/ folder
+  6. Test your Open Graph tags at:
+     • https://opengraph.xyz
+     • https://developers.facebook.com/tools/debug/
+     • https://cards-dev.twitter.com/validator
+
+
+QUICK TEST AFTER DEPLOYMENT
+----------------------------
+  Copy your live URL and paste it into WhatsApp or Telegram.
+  You should see the preview card appear immediately with your
+  image, title, and description.
+
+  If the old image still shows (cached), use the Facebook Debugger
+  or Twitter Validator above to force a cache refresh.
+
+
+"Your word is a lamp to my feet and a light to my path."
+— Psalm 119:105
